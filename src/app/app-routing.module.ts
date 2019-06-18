@@ -5,6 +5,7 @@ import {HistoriaComponent} from  './componentes/historia/historia.component';
 import {OpçoesComponent} from  './componentes/opçoes/opçoes.component';
 import {QuizComponent} from  './componentes/quiz/quiz.component';
 import {HomemdeferroComponent} from  './componentes/homemdeferro/homemdeferro.component';
+import {CadastrolistaComponent} from  './componentes/cadastrolista/cadastrolista.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path: 'historia', component: HistoriaComponent},
   {path: 'opçoes', component: OpçoesComponent},
   {path: 'quiz', component: QuizComponent},
-  {path: 'homemdeferro', component: HomemdeferroComponent}
+  {path: 'homemdeferro', component: HomemdeferroComponent},
+  {path: 'cadastrolista', component: CadastrolistaComponent}
 
 ];
 
