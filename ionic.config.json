@@ -1,5 +1,7 @@
 {
   "name": "appMarvel",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
