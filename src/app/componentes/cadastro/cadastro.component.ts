@@ -15,7 +15,7 @@ templateUrl: 'cadastro.component.html',
 
 export class CadastroComponent implements OnInit {
 
-  cadastro: Cadastro = new Cadastro();
+  cadastro : Cadastro = new Cadastro();
 
 
     constructor(private fire: AngularFireDatabase,
@@ -28,10 +28,12 @@ export class CadastroComponent implements OnInit {
 
 
   salvar(){
-    this.fire.list('cadastro').push(this.cadastro);
-    this.cadastro= new Cadastro();
+    this.fire.list('usuario').push(this.cadastro);
+    this.cadastro = new Cadastro();
+    alert("vaisefoder");
     this.rota.navigate(['cadastrolista']);
-    }
+
+      }
 
 
 }

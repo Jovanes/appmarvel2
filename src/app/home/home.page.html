@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content>
-
+<ion-card >
   <div class="ion-padding">
     <ion-img src="../assets/icon/1200px-MarvelLogo.svg.png"></ion-img>
 
@@ -15,17 +15,17 @@
     <ion-input [(ngModel)]="valor" placeholder="Nome de Usuario ou Email:">
       </ion-input>
       <p><b>SENHA:</b></p>
-    <ion-input [(ngModel)]="valor2" placeholder="Senha:">
+    <ion-input type="password"[(ngModel)]="valor2" placeholder="Senha:">
   </ion-input>
 
-    <ion-button  expand="full" color="medium" href="cadastro" > CADASTRE-SE </ion-button>
-    <ion-button  expand="full" color="medium" href="opçoes">ENTRAR</ion-button>
+    <b>Não possui uma conta?</b> <a href="cadastro" > CADASTRE-SE</a><br>
+    <ion-button  expand="block" color="danger" href="opçoes">ENTRAR</ion-button>
 
 </div>
 
 
 
-
+</ion-card>
 </ion-content>
 
 

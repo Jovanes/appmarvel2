@@ -28,13 +28,13 @@ import {HomemdeferroComponent} from  './componentes/homemdeferro/homemdeferro.co
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FormsModule, AngularFireDatabaseModule,
 AngularFireModule.initializeApp({
-  apiKey: "AIzaSyCYXuAqZbnRZ6DRTV0wN1VuoBzn28Csevg",
-   authDomain: "appmarvel-4e81f.firebaseapp.com",
-   databaseURL: "https://appmarvel-4e81f.firebaseio.com",
-   projectId: "appmarvel-4e81f",
-   storageBucket: "appmarvel-4e81f.appspot.com",
-   messagingSenderId: "231558684347",
-   appId: "1:231558684347:web:c91cdeda4f559c5f"
+  apiKey: "AIzaSyB4ulqlN7mewXlMG7bvvQbSQqEY-MeLNAg",
+  authDomain: "appmarvel22.firebaseapp.com",
+  databaseURL: "https://appmarvel22.firebaseio.com",
+  projectId: "appmarvel22",
+  storageBucket: "appmarvel22.appspot.com",
+  messagingSenderId: "821425547747",
+  appId: "1:821425547747:web:74c077b300504ffc"
 })
 
 ],
